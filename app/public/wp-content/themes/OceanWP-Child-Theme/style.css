@@ -1,0 +1,102 @@
+/*
+Theme Name: OceanWP Child Theme
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme. Sample child theme.
+Author: OceanWP
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+.elementor-element.elementor-element-df103d5.e-con-full.e-flex.e-con.e-parent.e-lazyloaded {
+    border-radius:10% 10% 44% 44% / 0% 0% 7% 7% 
+}
+.elementor-element.elementor-element-7c76223.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded {
+    border-radius: 10% 10% 50% 50% / 0% 0% 30% 30%;
+}
+.elementor-element.elementor-element-9756308.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded {
+    border-radius: 10% 10% 50% 50% / 0% 0% 13% 13%;
+}
+.wpcf7 .btn, input[type="submit"] {
+    background-color: #e11d5b;
+    display:block;
+    margin:auto;
+}
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+
+.page-id-10 .uacf7-row label, #form_commande label {
+    color: white;
+}
+
+
+#site-navigation-wrap .dropdown-menu >li#menu-item-22 >a {
+    background-color: #dc9f96;
+}
+
+
+div#form_commande {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+#form_commande div{  max-width: 350px;}
+#form_commande .form_centre {
+    width: 1px;
+    background: white;
+    margin: 0 20px;
+}
+#form_commande .elementor-heading-title{
+    color: white;
+    margin-bottom: 20px;
+    font-family: "Syne", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+#avant-commande input{
+    width: 30px;
+    height: 40PX;
+    
+}
+#avant-commande  .elementor-shortcode div{text-align: center;}
+
+
+@media (max-width: 1161px) { 
+    .form_centre{display: none;} 
+    div#form_commande{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.wpcf7-spinner{display: none;}
+
+#menu-menu-principal{
+    display: flex;
+}
+
+li#menu-item-22 {
+    order: 3;
+}
+#site-navigation-wrap {
+    right: 0px; 
+}
+span.elementor-button-text {
+    color: white;
+}
+.elementor-19 .elementor-element.elementor-element-0dc50cf.elementor-element {
+    --align-self: center;
+    width: 350px;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+    height: 250px;
+}
+input.wpcf7-form-control.wpcf7-submit.has-spinner {
+    width: 150px;
+    padding-top: 20px;
+    margin-top: 20px;
+}

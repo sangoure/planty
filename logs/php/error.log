@@ -1,0 +1,161 @@
+[08-Jun-2024 17:27:18 UTC] PHP Warning:  Attempt to read property "name" on null in C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\ocean-extra\includes\menu-icons\includes\settings.php on line 455
+[08-Jun-2024 17:27:18 UTC] PHP Warning:  Attempt to read property "name" on null in C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\ocean-extra\includes\menu-icons\includes\settings.php on line 455
+[10-Jun-2024 08:40:12 UTC] PHP Warning:  Undefined array key 1 in C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[10-Jun-2024 08:40:12 UTC] PHP Warning:  Undefined array key 2 in C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[10-Jun-2024 08:40:19 UTC] PHP Warning:  Undefined array key 1 in C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[10-Jun-2024 08:40:19 UTC] PHP Warning:  Undefined array key 2 in C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[10-Jun-2024 08:40:25 UTC] PHP Warning:  Undefined array key 1 in C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[10-Jun-2024 08:40:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[14-Jun-2024 21:13:43 UTC] PHP Parse error:  syntax error, unexpected integer "0", expecting ")" in C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\OceanWP-Child-Theme\functions.php on line 34
+[14-Jun-2024 21:24:09 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_menu" not found or invalid function name in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(812): require('C:\\Users\\slimb\\...')
+#4 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', false, Array)
+#5 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(812): require('C:\\Users\\slimb\\...')
+#12 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', false, Array)
+#13 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1066): get_template_part('partials/header...')
+#15 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(34): do_action('ocean_header')
+#19 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\slimb\\...')
+#20 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', true, Array)
+#21 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\slimb\\...')
+#24 C:\Users\slimb\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\slimb\\...')
+#25 C:\Users\slimb\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\slimb\\...')
+#26 {main}
+  thrown in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[14-Jun-2024 21:27:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_menu" not found or invalid function name in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(812): require('C:\\Users\\slimb\\...')
+#4 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', false, Array)
+#5 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(812): require('C:\\Users\\slimb\\...')
+#12 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', false, Array)
+#13 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1066): get_template_part('partials/header...')
+#15 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(34): do_action('ocean_header')
+#19 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\slimb\\...')
+#20 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', true, Array)
+#21 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\slimb\\...')
+#24 C:\Users\slimb\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\slimb\\...')
+#25 C:\Users\slimb\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\slimb\\...')
+#26 {main}
+  thrown in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[14-Jun-2024 21:45:32 UTC] PHP Parse error:  syntax error, unexpected integer "2", expecting variable in C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\OceanWP-Child-Theme\functions.php on line 44
+[14-Jun-2024 21:48:17 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fb_move_admin" not found or invalid function name in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(3050): do_action('wp_head')
+#3 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(15): wp_head()
+#4 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\slimb\\...')
+#5 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', true, Array)
+#6 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#8 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\slimb\\...')
+#9 C:\Users\slimb\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\slimb\\...')
+#10 C:\Users\slimb\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\slimb\\...')
+#11 {main}
+  thrown in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[18-Jun-2024 11:39:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_menu" not found or invalid function name in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(812): require('C:\\Users\\slimb\\...')
+#4 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', false, Array)
+#5 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(812): require('C:\\Users\\slimb\\...')
+#12 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', false, Array)
+#13 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1066): get_template_part('partials/header...')
+#15 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(34): do_action('ocean_header')
+#19 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\slimb\\...')
+#20 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', true, Array)
+#21 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\slimb\\...')
+#24 C:\Users\slimb\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\slimb\\...')
+#25 C:\Users\slimb\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\slimb\\...')
+#26 {main}
+  thrown in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[18-Jun-2024 11:41:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_menu" not found or invalid function name in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(812): require('C:\\Users\\slimb\\...')
+#4 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', false, Array)
+#5 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(812): require('C:\\Users\\slimb\\...')
+#12 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', false, Array)
+#13 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1066): get_template_part('partials/header...')
+#15 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(34): do_action('ocean_header')
+#19 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\slimb\\...')
+#20 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\slimb\\...', true, Array)
+#21 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\slimb\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\slimb\\...')
+#24 C:\Users\slimb\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\slimb\\...')
+#25 C:\Users\slimb\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\slimb\\...')
+#26 {main}
+  thrown in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[18-Jun-2024 14:51:17 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\w3-total-cache\Util_Http.php on line 146
+[19-Jun-2024 19:43:28 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "page_template" on null in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\post.php:4703
+Stack trace:
+#0 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\post.php(4930): wp_insert_post(Array, false, true)
+#1 C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\db.php(235): wp_update_post(Array)
+#2 C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1358): Elementor\DB->save_plain_text(460)
+#3 C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(848): Elementor\Core\Base\Document->save_elements(Array)
+#4 C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\core\documents-manager.php(549): Elementor\Core\Base\Document->save(Array)
+#5 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\Users\slimb\Local Sites\planty\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\slimb\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\slimb\Local Sites\planty\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\Users\slimb\Local Sites\planty\app\public\wp-includes\post.php on line 4703
